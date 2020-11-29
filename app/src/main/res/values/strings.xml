@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TaskApp</string>
+    <string name="task_title_label">Title</string>
+    <string name="task_title_hint">task_title_hint</string>
+    <string name="task_details_label">task_details_label</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        tools:ignore="Suspicious0dp">
+
+        <TextView
+            android:id="@+id/view_title"
+            style="?android:listSeparatorTextViewStyle"
+            android:layout_width="408dp"
+            android:layout_height="60dp"
+            android:layout_marginBottom="20dp"
+            android:text="@string/task_title_label"
+            android:textSize="10dp" />
+
+        <EditText
+            android:id="@+id/task_title"
+            android:layout_width="404dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:hint="@string/task_title_hint"
+            app:layout_constraintBottom_toTopOf="@+id/view_title" />
+
+        <TextView
+            style="?android:listSeparatorTextViewStyle"
+            android:layout_width="404dp"
+            android:layout_height="58dp"
+            android:layout_marginBottom="50dp"
+            android:text="@string/task_details_label" />
+
+        <EditText
+            android:id="@+id/task_details"
+            android:layout_width="404dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:hint="@string/task_title_hint"
+            app:layout_constraintBottom_toTopOf="@+id/view_details" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
